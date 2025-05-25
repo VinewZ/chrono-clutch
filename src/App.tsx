@@ -106,7 +106,7 @@ export function App() {
         onChange={(e) => setInput(e.currentTarget.value)}
       />
 
-      <div className="grid grid-cols-2 h-48 relative border-b">
+      <div className="grid grid-cols-2 h-[199px] relative border-b">
         <div className="grid place-content-center text-2xl font-bold border-r px-5 text-center">
           {input}
         </div>
@@ -129,7 +129,7 @@ export function App() {
           <Calendar />
         </div>
       </div>
-      <footer className='border-t flex items-center justify-between gap-2 px-2 h-[35px] bg-red-500'>
+      <footer className='border-t flex items-center justify-between gap-2 px-2 h-[35px]'>
         <div>Clutch</div>
         <div className='flex gap-1'>
           <div className='flex gap-1 items-center'>
